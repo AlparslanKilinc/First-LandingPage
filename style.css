@@ -58,8 +58,6 @@ ul{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bold;
-
-
 }
 .top-button{
     background-color: #3882F6;
@@ -86,7 +84,7 @@ ul{
     margin-top: 100px;
     align-items: center;
     gap: 20px;
-    flex: 2;
+    flex: 1;
     
 }
 .info-header{

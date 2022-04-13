@@ -4,6 +4,7 @@ body {
     min-height: 300vh;
     display: flex;
     flex-direction: column;
+    
   }
   .footer,.first-section{
     background-color: #1f2937;
@@ -85,6 +86,7 @@ ul{
     align-items: center;
     gap: 20px;
     flex: 1;
+    
     
 }
 .info-header{
@@ -190,6 +192,7 @@ ul{
      display: flex;
      flex-direction: column;
      flex: 1;
+     gap: 100px;
  }
  .footer{
     display: flex;

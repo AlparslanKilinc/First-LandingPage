@@ -1,7 +1,7 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
-    min-height: 300vh;
+    height: 300vh;
     display: flex;
     flex-direction: column;
     
@@ -12,13 +12,15 @@ body {
   .first-section{
       display: flex;
       flex-direction: column;
-      flex: 0.1;
-      gap: 100px;
+      flex: 0.3;
+      gap: 4em;
+      
   }
   .header{
       display: flex;
       justify-content:space-between;
       margin: 10px 30px;
+      
       
   }
  
@@ -49,6 +51,7 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 4%;
 }
 .secondary-text{
     font-size: 18px;
@@ -130,7 +133,7 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex: 0.5;
 }
 .quote,.sign{
     font-size: 36px;
@@ -147,7 +150,7 @@ ul{
 
 .fourth-section{
     display: flex;
-    flex: 1;
+    flex: 0.5;
     justify-content: center;
 }
 
@@ -192,7 +195,7 @@ ul{
      display: flex;
      flex-direction: column;
      flex: 1;
-     gap: 100px;
+     
  }
  .footer{
     display: flex;

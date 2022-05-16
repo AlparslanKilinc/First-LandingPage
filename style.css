@@ -20,8 +20,6 @@ body {
       display: flex;
       justify-content:space-between;
       margin: 10px 30px;
-      
-      
   }
  
 
@@ -202,9 +200,19 @@ ul{
     justify-content: center;
     align-items: center;
     color:#E5E7EB;
+    gap: 1em;
  }
 
-
+ /* Github logo Animation */
+ .fa-github {
+    color:red;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
+  }
 
 
 
